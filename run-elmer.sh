@@ -1,3 +1,4 @@
+xhost +
 docker run \
     -it --device=/dev/dri \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
